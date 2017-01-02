@@ -1,0 +1,82 @@
+section{
+	background-color: rgba(223, 155, 255, 0.7);
+}
+p {
+	margin: 20px 0;
+}
+
+.form-control {
+	box-shadow: none;
+}
+
+.btn {
+	font-family: 'Oswald';
+}
+body {
+	background-image: url('images/bg.png');
+	margin: 20px 0px;
+}
+h2 {
+   	 	background: none repeat scroll 0 0 #ad5aa4;
+  		color: #fff;
+		font: 300 30px 'Oswald';
+		text-transform: uppercase;
+	}
+.wrapper {
+	padding: 0 0 50px 0;
+}
+ a {
+	text-transform: uppercase;
+	font: 14px 'Oswald';
+}
+.navbar{
+	background: #cbb9eb;
+	margin: 20px;
+}
+
+.heading{
+	height: 40px;
+	margin: 20px 0px;
+}
+h1 {
+	display: inline-block;
+	color: purple;
+	font: normal 40px/40px 'Oswald', sans-serif;
+	margin: 0;
+	text-transform: uppercase;
+}
+.row{
+	margin: 0;
+}
+.submenu {
+	margin-bottom: 30px;
+}
+.submenu li {
+	display: list-item;
+	font: 300 14px 'Oswald';
+	list-style-position: inside;
+	list-style-type: square;
+}
+ .submenu li a{
+	text-decoration: none;
+}
+footer {
+  	background: #f2d0ea;
+  	color: #7e7e7e;
+  	font-size: 11px;
+  	margin: 20px 0;
+}
+footer, .container a {
+  	color: #7e7e7e;
+}
+footer, .container,	.sitemap a {
+  	font-size: 12px;
+}
+.footer-logo {
+  	float: right;
+  	font-size: 10px;
+  	text-align: right;
+}
+footer, .container, .footer-logo a {
+	text-decoration: underline;
+}
