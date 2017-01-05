@@ -1,20 +1,18 @@
 section{
-	background-color: rgba(223, 155, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.5);
 }
 p {
 	margin: 20px 0;
 }
-
 .form-control {
 	box-shadow: none;
 }
-
 .btn {
 	font-family: 'Oswald';
 }
 body {
 	background-image: url('images/bg.png');
-	margin: 20px 0px;
+	margin: 0;
 }
 h2 {
    	 	background: none repeat scroll 0 0 #ad5aa4;
@@ -37,6 +35,8 @@ h2 {
 .heading{
 	height: 40px;
 	margin: 20px 0px;
+	text-align: left;
+	padding: 0 0 0 25px;
 }
 h1 {
 	display: inline-block;
