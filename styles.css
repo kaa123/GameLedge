@@ -1,3 +1,29 @@
+.letter{ 
+	border: ridge 1px purple; 
+	height: auto; 
+	width: 5%; 
+	text-align: center;
+	display: inline-block;
+	margin: 1%;
+	cursor: pointer;
+	background: #d8c2ff;
+}
+.trueLetter{ 
+	border: ridge 1px green; 
+	height: auto; 
+	width: 5%; 
+	text-align: center;
+	display: inline-block;
+	margin: 1%;
+	background: #6aebc8;
+} 
+.game-over{
+	cursor:default;
+	background: #e6e6e6;
+}
+.off{
+	display: none;
+}
 section{
 	background-color: rgba(255, 255, 255, 0.5);
 }
@@ -12,8 +38,8 @@ p {
 }
 body {
 	background-image: url('images/bg.png');
-	margin: 0;
 }
+
 h2 {
    	 	background: none repeat scroll 0 0 #ad5aa4;
   		color: #fff;
