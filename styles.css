@@ -29,6 +29,7 @@ section{
 }
 p {
 	margin: 20px 0;
+	font: 16px 'Oswald';
 }
 .form-control {
 	box-shadow: none;
