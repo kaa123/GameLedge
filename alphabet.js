@@ -34,8 +34,7 @@ $(function(){
 					x=confirm('Вы выиграли! Число ошибок = '+ errorCount+'. Сыграть еще раз?');
 					if (x==true) {
 						location.reload();
-					}
-					else {
+					} else {
 						$('.letter').addClass("game-over");
 						$('.letter').off('click');
 						$('.game').off('click');
@@ -47,8 +46,7 @@ $(function(){
 					x=confirm('Вы проиграли. Попробовать еще раз?');
 					if (x==true) {
 						location.reload();
-					}
-					else {
+					} else {
 						$('.letter').addClass("game-over");
 						$('.letter').off('click');
 						$('.game').off('click');
